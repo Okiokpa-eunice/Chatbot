@@ -1,0 +1,70 @@
+{"intents":[
+    {"tag":"greetings",
+     "patterns":["hello","hey","hi","good day","greetings","what's up?","how is it going?","polaris","account","bank","rob", "shop","iya"],
+     "responses":["Hi, I'm Rob.I can help you with the right information needed to resolve the following issues. Please enter/type a number from the list below to begin with:                                                                                                         1. Opening an account                                                                                                                       2. Failed transaction                                                                                                                       3. Loan application                                                                                                                         4. How to check account balance                                                                                                             5. How to make a transfer                                                                                                                   6. Airtime purchase                                                                                                                         7. Issues with vulte                                                                                                                        8. Customer care"]
+    },
+    {"tag":"thanks",
+     "patterns":["thanks","Okay","thank you","thanks for the help"],
+     "responses":["I'm always at your service","It was nice to be of great help"]
+    },
+    {"tag":"noanswer",
+     "patterns":[],
+     "responses":["sorry,can't understand you","please give me more info"]
+    },
+    {"tag":"failed_transaction",
+     "patterns":["2"],
+     "responses":["Please enter/type a number from the list below that concerns your issue:                                                  9. Failed airtime purchase                                                                                                                  10. Failed POS/ATM withdrawal                                                                                                                11. Failed Transfer"]
+    },
+    {"tag":"failed_airtime",
+     "patterns":["9"],
+     "responses":["We empathize with you on the issue raised.Kindly provide your account number and transaction date for further investigation and assistance"]
+    },
+    {"tag":"failed_pos/atm_withdrawal",
+     "patterns":["10"],
+     "responses":["We apologize for all inconvenience caused by the issue. Please provide your account number,amount and transaction date for further investigation and assistance"]
+    },
+    {"tag":"failed_transfer",
+     "patterns":["11"],
+     "responses":["We are sorry for the troubles.However, this may have occurred due to incorrect beneficiary account information,Technical issues or insufficient funds.Please try again later but if debited, kindly provide your account number,transaction date and beneficiary account details for further investigation and assistance"]
+    },
+    {"tag":"loan",
+     "patterns":["3"],
+     "responses":["Kindly visit any polaris bank branch closest to you to fill and complete a loan application form"]
+    },
+    {"tag":"account_opening",
+     "patterns":["1"],
+     "responses":["Please visit any polaris bank branch closest to you to fill the account opening form and also go along with the necessary documents such as; A recent passport photograph, A valid ID card and Utility bill"]
+    },
+    {"tag":"account_balance",
+     "patterns":["4"],
+     "responses":["Simply dial *833# and select option 6 to check your balance,You can alternatively use your vulte app"]
+    },
+    {"tag":"Transfer",
+     "patterns":["5"],
+     "responses":["Simply dial *833# and select option 3 to make a transfer, You can alternatively use your vulte app"]
+    },
+    {"tag":"airtime_purchase",
+     "patterns":["6"],
+     "responses":["Simply dial *833# and select option 1 to buy airtime or data,You can alternatively use your vulte app"]
+    },
+    {"tag":"issues_with_vulte",
+     "patterns":["7"],
+     "responses":["Please enter/type a number from the list below that concerns your issue:                                                 12. Verification issue                                                                                                                       13. Forgot password                                                                                                                         14. How access vulte"]
+    },
+    {"tag":"verification_issue",
+     "patterns":["12"],
+     "responses":["You will have to submit a letter to  any polaris branch manager requesting for a PND lift and account verification.Kindly call the customer care/Yes center for more information"]
+    },
+    {"tag":"forgot_password",
+     "patterns":["13"],
+     "responses":["Open your vulte app, while on the login page,click on forgot password and follow the onscreen instructions"]
+    },
+    {"tag":"how to access vulte",
+     "patterns":["14"],
+     "responses":["Simply download the VULTE app from Google play or ios App store and complete the sign up process"]
+    },
+    {"tag":"customer care",
+     "patterns":["8"],
+     "responses":["You can reach a customer care or Yes center Agent on +2348069880000"]
+    }
+]}
