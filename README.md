@@ -20,7 +20,7 @@ Tensorflow: Algorithm used to build and train the model.
 
 ### Setup
 
-To set up and run the Netflix Recommender System locally, follow these steps:
+To set up and run the Banking Customer Service ChatBot locally, follow these steps:
 
 Clone the repository to your local machine.
 
@@ -45,7 +45,7 @@ Contributions to the Banking Customer Service ChatBot are welcome! Fork the repo
 
 ### Contact
 
-If you have any questions, suggestions, or feedback, please feel free to contact me at okiokpaefe@gmal.com.
+If you have any questions, suggestions, or feedback, please feel free to contact me at okiokpaefe@gmail.com.
 
 Thank you for using the Banking Customer Service ChatBot ! 
 
